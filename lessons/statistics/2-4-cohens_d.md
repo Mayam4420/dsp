@@ -1,6 +1,9 @@
 [Think Stats Chapter 2 Exercise 4](http://greenteapress.com/thinkstats2/html/thinkstats2003.html#toc24) (Cohen's d)
 
->> def CohenEffectSize(group1, group2):
+>>
+Code for both questions below:
+
+def CohenEffectSize(group1, group2):
     """Computes Cohen's effect size for two groups.
     
     group1: Series or DataFrame
@@ -20,8 +23,8 @@
     
     print(diff)
     return d
-    
-    Results:
-    diff = -0.12476118453549034 : the mean of firsts is smaller than others since diff is negative
-    d = -0.088672927072602
+***********************
+Results:
+diff = -0.12476118453549034 : The mean of firsts is smaller than others since diff is negative.
+d = -0.088672927072602  >>> Cohen's d is ~ -8.9% for totalwgt_lb which compares to ~ 2.8% for prglngth, so the effect size is higher than babie's weight.
 
